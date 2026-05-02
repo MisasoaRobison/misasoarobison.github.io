@@ -1,0 +1,37 @@
+{
+  "personnal":[
+    {
+      "photo":"",
+      "nom": "ROBISON",
+      "prenom": "Misasoa",
+      "niveau": "Bac+4",
+      "Pays": "France",
+      "disponibility":"true",
+      "linkedin": "https://www.linkedin.com/in/misasoa-robison-6494812a2/",
+      "mail":"misasoaa.robison@gmail.com",
+      "github":"https://github.com/MisasoaRobison"
+    }
+  ],
+
+  "languages":[
+    {
+      "title":"Anglais",
+      "level":"B1-B2"
+    },
+
+    {
+      "title":"Français",
+      "level":"billingue"
+    },
+
+    {
+      "title":"Espagnol",
+      "level":"A2"
+    },
+
+    {
+      "title":"Malgache",
+      "level":"Maternelle"
+    }
+  ]
+}

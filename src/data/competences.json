@@ -1,0 +1,29 @@
+[
+  {
+    "category": "Programing",
+    "description": "Multi-paradigmes de programmation"
+  },
+  {
+    "category": "Fullstack",
+    "description": "Conception et développement d'applications complètes, du frontend au backend."
+  },
+  {
+    "category": "Data",
+    "description": "Manipulation de bases de données (SQL/NoSQL), écriture et optimisation de requêtes, ainsi que visualisation et analyse de données avec Power BI."
+  },
+
+  {
+  "category": "DevOps",
+  "description": "Conteneurisation, orchestration et automatisation de déploiements."
+  },
+
+  {
+    "category":"Networks",
+    "description":"Compréhension des bases des réseaux (TCP/IP, DHCP, routage)"
+  }, 
+
+  {
+    "category":"software engineering",
+    "description": "Méthodes agiles, tests logiciels et pratiques DevOps."
+  }
+]

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Misasoa ROBISON — Étudiant en informatique.">
+    <title>MR — Accueil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="styles/hamburger.css"></script>
+
+    <style>
+        html { scrollbar-gutter: stable; }
+        body {
+            background-image: url('assets/img/background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-color: rgba(3, 7, 18, 0.85);
+            z-index: -1;
+        }
+        .hero-header-reveal { animation: fadeInDown 0.8s ease both; }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="icon" type="image/svg+xml" href="assets/img/mr-logo.png">
+</head>
+
+<body class="bg-gray-950 text-white min-h-screen font-sans">
+
+    <header class="bg-gray-900 border-b border-gray-800">
+        <nav class="w-full bg-gray-900 border-b border-gray-800" id="navbar" role="navigation" aria-label="Navigation principale">
+            <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+                <a href="#" class="flex items-center gap-3">
+                    <img src="assets/img/mr-logo.png" alt="Logo MR" class="w-10 h-10 rounded">
+                    <div class="leading-tight">
+                        <span class="block text-sm text-gray-400">Misasoa</span>
+                        <span class="block font-bold text-sky-500">ROBISON</span>
+                    </div>
+                </a>
+
+                <ul class="hidden md:flex gap-6 text-gray-300">
+                    <li><a href="index.html" class="text-sky-500 font-bold">Accueil</a></li>
+                    <li><a href="contents/aboutme.html" class="hover:text-white transition-colors">À propos</a></li>
+                    <li><a href="contents/projects.html" class="hover:text-white transition-colors">Projets</a></li>
+                    <li><a href="contents/competences.html" class="hover:text-white transition-colors">Compétences</a></li>
+                    <li><a href="javascript:void(0)" onclick="toggleContactModal()" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-sm font-bold text-white border border-gray-700">MR</div>
+                    <button id="hamburger" class="md:hidden flex flex-col gap-1">
+                        <span class="w-6 h-0.5 bg-white"></span>
+                        <span class="w-6 h-0.5 bg-white"></span>
+                        <span class="w-6 h-0.5 bg-white"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<main class="max-w-4xl mx-auto px-6 py-8"> <section class="hero !block !p-0"> <div class="container">
+            <div class="text-center mt-0 pt-0 mb-12 md:mb-16 hero-header-reveal">
+                <div class="flex items-center gap-3 text-[0.75rem] font-bold tracking-[3px] uppercase text-sky-500 mb-3.5 justify-center">
+                    <span class="w-[30px] h-[1.5px] bg-sky-500 opacity-50"></span>
+                    Bienvenue
+                    <span class="w-[30px] h-[1.5px] bg-sky-500 opacity-50"></span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-2">
+                    Misasoa <span class="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent tracking-tighter uppercase">ROBISON</span>
+                </h2>
+            </div>
+
+            <div class="hero-content !flex !flex-col-reverse md:!flex-row items-center gap-10">
+                <div class="hero-text flex-1 !text-left w-full">
+                    <div class="bg-gradient-to-r from-green-400 to-blue-600 bg-clip-text text-transparent font-extrabold mb-4">
+                        <h3 class="text-2xl md:text-3xl leading-tight">Conception de solutions numériques & Maîtrise des enjeux de sécurité.</h3>
+                    </div>
+                    <p class="hero-desc text-gray-400 mb-8 !text-left md:!text-justify leading-relaxed">
+                        Étudiant passionné par l'ingénierie logicielle, je vise une liaison entre la création de projets robustes et la fiabilité des infrastructures.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <a href="contents/projects.html" class="flex-1 min-w-[140px] flex items-center justify-center gap-2 px-5 py-3 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-lg transition-all shadow-lg shadow-blue-900/20 hover:scale-105">
+                            Projets
+                        </a>
+                        <a href="contents/competences.html" class="flex-1 min-w-[140px] flex items-center justify-center gap-2 px-5 py-3 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white text-sm font-bold rounded-lg transition-all hover:scale-105">
+                            Techs
+                        </a>
+                        <a href="javascript:void(0)" onclick="toggleContactModal()" class="flex-1 min-w-[140px] flex items-center justify-center gap-2 px-5 py-3 border border-slate-700 hover:bg-slate-800 text-white text-sm font-bold rounded-lg transition-all hover:scale-105">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual flex-shrink-0">
+                    <div class="hero-photo-ring">
+                        <div class="hero-photo-container">
+                            <img src="assets/img/profile-pic.jpg" alt="Photo de profil" class="hero-img visible">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <div id="contactModal" class="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+        <div id="modalContent" class="bg-slate-900 border border-slate-800 p-8 rounded-2xl shadow-2xl max-w-sm w-full mx-4 transform scale-95 opacity-0 transition-all duration-300">
+            <div class="space-y-3">
+                <a id="modalEmail" href="#" class="flex items-center gap-4 p-4 rounded-xl bg-slate-800/40 border border-slate-700 hover:border-blue-500 hover:bg-slate-800 transition-all group">
+                    <div class="text-blue-400"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                    <div class="overflow-hidden">
+                        <p class="text-[10px] text-slate-500 font-bold uppercase tracking-widest">Email</p>
+                        <p id="modalEmailText" class="text-sm text-slate-300 group-hover:text-white truncate">Chargement...</p>
+                    </div>
+                </a>
+                <a id="modalLinkedin" href="#" target="_blank" class="flex items-center gap-4 p-4 rounded-xl bg-slate-800/40 border border-slate-700 hover:border-blue-400 hover:bg-slate-800 transition-all group">
+                    <div class="text-blue-400"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+                    <span class="text-sm text-slate-300 group-hover:text-white font-medium">LinkedIn</span>
+                </a>
+                <a id="modalGithub" href="#" target="_blank" class="flex items-center gap-4 p-4 rounded-xl bg-slate-800/40 border border-slate-700 hover:border-white hover:bg-slate-800 transition-all group">
+                    <div class="text-slate-400 group-hover:text-white"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></div>
+                    <span class="text-sm text-slate-300 group-hover:text-white font-medium">Github</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+<footer class="bg-gray-900 border-t border-gray-800 text-gray-500 py-8 mt-20">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+        
+        <div class="flex flex-col items-center md:items-start gap-3">
+            <div class="flex items-center gap-3">
+                <img src="assets/img/mr-logo.png" alt="Logo" class="w-6 h-6 opacity-60 grayscale">
+                <p class="text-[11px] tracking-tight text-center md:text-left">
+                    Copyright © 2026 — <span class="text-gray-400">Misasoa ROBISON</span>
+                </p>
+            </div>
+            <p class="text-[10px] opacity-50 md:hidden">Tous droits réservés.</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center gap-6">
+            <div class="flex items-center gap-5 border-gray-800 sm:border-r sm:pr-6">
+                <a href="https://www.linkedin.com/in/misasoa-robison-6494812a2/" target="_blank" class="hover:text-sky-500 transition-colors" aria-label="LinkedIn">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="https://github.com/MisasoaRobison" target="_blank" class="hover:text-white transition-colors" aria-label="GitHub">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+            </div>
+
+            <nav>
+                <a href="javascript:void(0)" onclick="toggleContactModal()" class="text-[10px] font-bold uppercase tracking-[2px] px-4 py-2 border border-gray-800 rounded-full hover:text-white hover:border-gray-600 transition-all">
+                    Contact
+                </a>
+            </nav>
+        </div>
+    </div>
+</footer>
+    <script src="src/static/contact.js"></script>
+    <script src="src/static/hamburger.js"></script>
+</body>
+</html>

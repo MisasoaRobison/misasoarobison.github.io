@@ -1,0 +1,23 @@
+/* Styles de base pour les barres du hamburger */
+#hamburger span {
+    transition: all 0.3s ease-in-out;
+    transform-origin: center; /* Important pour que la rotation se fasse au milieu */
+}
+
+/* Animation quand le menu est OUVERT (classe 'active' ajoutée par le JS) */
+
+/* La barre du haut tourne à 45 degrés et descend légèrement */
+#hamburger.active span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+/* La barre du milieu devient transparente et glisse vers la gauche */
+#hamburger.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+/* La barre du bas tourne à -45 degrés et monte légèrement */
+#hamburger.active span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}

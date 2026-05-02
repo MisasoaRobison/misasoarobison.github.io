@@ -1,0 +1,35 @@
+[
+  {
+    "diploma": "Master",
+    "level": "Bac+5",
+    "period":"En cours",
+    "status":"in progress",
+    "title":"Méthodes Informatiques Appliquées à la Gestion des Entreprises",
+    "parcours": "Systèmes d'information fiables et Intelligence des données",
+    "etablissement": "Université Paris Nanterre",
+    "pays": "France",
+    "description": "Programme spécialisé qui associe Informatique et Gestion. La spécialisation « Systèmes d'Information Fiables et Intelligence des Données » forme les futurs professionnels capables d'accompagner et de piloter les transformations numériques et stratégiques au sein des organisations."
+  },
+  {
+    "diploma": "Licence",
+    "level":"Bac+3",
+    "period":"2022 — 2025",
+    "status":"completed",
+    "title":"Informatique",
+    "parcours": "Parcours bi-disciplinaire : majeure Informatique et mineure Gestion",
+    "etablissement": "Sorbonne Université",
+    "pays": "France",
+    "description": "Afin d'acquérir des compétences multiples, le programme bidisciplinaire permet aux étudiants d'obtenir une licence en SCIENCES, TECHNOLOGIES, SANTÉ en choisissant une majeure parmi huit disciplines, tout en la combinant avec une mineure parmi les autres mentions de majeures ou une thématiques transdisciplinaire comme la Gestion"
+  },
+  {
+    "diplome": "Baccalauréat",
+    "title":"Baccalauréat Général",
+    "level":"mention très bien",
+    "period":"2022",
+    "parcours": "Spécialités: Mathématiques et Physique-Chimie",
+    "status":"completed",
+    "etablissement": "Lycée La Clairefontaine de Fort-Dauphin",
+    "pays": "Madagascar",
+    "description": "Programme général du baccalauréat français, avec les spécialités Mathématiques, Physique-Chimie et Sciences de la Vie et de la Terre. J'ai également suivi des cours optionnels, notamment Mathématiques Expert."
+    }
+]

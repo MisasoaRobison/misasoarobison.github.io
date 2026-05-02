@@ -1,0 +1,43 @@
+[
+
+  {
+    "category":"programing",
+    "contents":["Python", "Java", "C", "OCaml"]
+  },
+
+  {
+    "category":"frontend",
+    "contents":["HTML", "CSS", "React", "JavaScript"]
+  },
+
+  {
+    "category":"backend",
+    "contents":["Node.js", "Express", "Spring Boot", "JavaScript", "Java"]
+  },
+
+  {
+    "category":"data",
+    "contents":["Power BI", "pentaho", "MySQL", "MongoDB"]
+  },
+
+  {
+    "category":"software testing",
+    "contents":["JUint", "Mockito"]
+  },
+
+  {
+    "category":"DevOps",
+    "contents":["GitHub", "Git", "Docker", "Docker Compose", "Vagrant"]
+  },
+
+  {
+    "category":"networks",
+    "contents":["TCP/IP", "DHCP", "Routing Access", "Wireshark"]
+  },
+
+  {
+    "category":"systems",
+    "contents":["Linux", "Windows", "Virtualbox"]
+  }
+
+]
