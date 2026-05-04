@@ -1,7 +1,7 @@
 [
   {
     "id": 4,
-    "category": "Softawre Developpement",
+    "category": "Softawre Development",
     "title": "GreenDesk",
     "status": "in progress",
     "organization": "Université Paris Nanterre",
@@ -28,7 +28,7 @@
 
     {
     "id": 2,
-    "category": "Softawre Developpement",
+    "category": "Softawre Development",
     "title": "Organiz'asso",
     "status": "completed",
     "organization": "Sorbonne Université",
@@ -42,14 +42,14 @@
 
     {
     "id": 5,
-    "category": "Softawre Developpement",
+    "category": "Softawre Development",
     "title": "Portfolio",
     "status": "in progress",
     "organization": "Projet Personnel",
     "description": "Portfolio responsive multi-pages avec animations fluides et thème sombre élégant.",
     "technologies": ["Javascript", "HTML","CSS"],
     "image": ["../../assets/img/mr-logo.png", "../../assets/img/web.jpg"],
-    "url": "https://github.com/MisasoaRobison/Portfolio",
+    "url": "https://misasoarobison.github.io/",
     "demo":""
 
   },

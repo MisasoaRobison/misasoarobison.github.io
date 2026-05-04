@@ -17,12 +17,12 @@
 
   {
     "category":"data",
-    "contents":["Power BI", "pentaho", "MySQL", "MongoDB"]
+    "contents":["Power BI", "Power Querry", "Pentaho", "MySQL", "MongoDB"]
   },
 
   {
     "category":"software testing",
-    "contents":["JUint", "Mockito"]
+    "contents":["JUnit", "Mockito"]
   },
 
   {
