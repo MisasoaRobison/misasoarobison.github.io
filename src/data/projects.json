@@ -99,7 +99,7 @@
     "organization": "Université Paris Nanterre",
     "description": "Conception d'un modèle décisionnel sous Power BI à partir de données transactionnelles. Modélisation en schéma en étoile, traitement sous Power Query (ETL) et restitution de KPIs stratégiques.",
     "technologies": ["Power BI", "Power Query", "SQL Analytics", "ETL"],
-    "image": ["../../assets/img/Nanterre-logo.png", "../../assets/img/powerbi.jpg"],
+    "image": ["../../assets/img/Nanterre-logo.png", "../../assets/img/powerBI.jpg"],
     "url": "",
     "demo": ""
   },
