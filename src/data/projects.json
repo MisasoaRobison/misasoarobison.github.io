@@ -1,6 +1,6 @@
 [
   {
-    "id": 4,
+    "id": 7,
     "category": "Softawre Development",
     "title": "GreenDesk",
     "status": "in progress",
@@ -41,7 +41,7 @@
   },
 
     {
-    "id": 5,
+    "id": 9,
     "category": "Softawre Development",
     "title": "Portfolio",
     "status": "in progress",
@@ -66,5 +66,53 @@
     "url": "https://github.com/MisasoaRobison/Projet-Structures-de-donn-es",
     "demo":""
 
+  },
+  {
+    "id": 8,
+    "category": "Software Development",
+    "title": "Pac-Man",
+    "status": "in progress",
+    "organization": "Projet Personnel",
+    "description": "Conception d'une application modulaire en Python appliquant la POO et une architecture découplée Modèle/Vue, accompagnée d'une suite de tests automatisés (pytest).",
+    "technologies": ["Python", "Pygame", "Pytest"],
+    "image": ["../../assets/img/mr-logo.png", "../../assets/img/web.jpg"],
+    "url": "https://github.com/MisasoaRobison/pacman-python",
+    "demo": ""
+  },
+  {
+    "id": 5,
+    "category": "Information Systems Management",
+    "title": "Refonte du SI & Architecture (TOGAF ADM)",
+    "status": "completed",
+    "organization": "Université Paris Nanterre",
+    "description": "Analyse des écarts (Gap Analysis) entre SI existant et cible, cartographie globale, modélisation des flux de données et processus métiers selon le cadre d'urbanisation TOGAF ADM.",
+    "technologies": ["BPMN", "TOGAF ADM", "Modélisation SI"],
+    "image": ["../../assets/img/Nanterre-logo.png", "../../assets/img/architectureSI.jpg"],
+    "url": "",
+    "demo": ""
+  },
+  {
+    "id": 6,
+    "category": "Data Analytics",
+    "title": "Dashboard Décisionnel Power BI",
+    "status": "completed",
+    "organization": "Université Paris Nanterre",
+    "description": "Conception d'un modèle décisionnel sous Power BI à partir de données transactionnelles. Modélisation en schéma en étoile, traitement sous Power Query (ETL) et restitution de KPIs stratégiques.",
+    "technologies": ["Power BI", "Power Query", "SQL Analytics", "ETL"],
+    "image": ["../../assets/img/Nanterre-logo.png", "../../assets/img/powerbi.jpg"],
+    "url": "",
+    "demo": ""
+  },
+  {
+    "id": 4,
+    "category": "Information Systems Management",
+    "title": "Note de Cadrage & Gouvernance Projet",
+    "status": "completed",
+    "organization": "Université Paris Nanterre",
+    "description": "Élaboration complète d'une note de cadrage projet : définition des objectifs stratégiques, délimitation du périmètre fonctionnel, gouvernance et analyse des risques opérationnels.",
+    "technologies": ["Management de projet", "Gouvernance SI", "Analyse des risques"],
+    "image": ["../../assets/img/Nanterre-logo.png", "../../assets/img/notecadrage.png"],
+    "url": "",
+    "demo": ""
   }
 ]
